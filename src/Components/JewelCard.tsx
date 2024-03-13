@@ -1,6 +1,11 @@
 
+interface JewelCardProps{
+  image : string;
+  desc?:string
+}
 
-function JewelCard({image,desc}) {
+
+function JewelCard({image,desc}:JewelCardProps) {
   return (
     <div className="relative m-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border  border-gray-300 bg-white shadow-md">
   <a className="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl" href="#">
