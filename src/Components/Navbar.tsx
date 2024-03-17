@@ -9,16 +9,14 @@ const Navbar = () => {
         </a>
       </div>
       <div className="flex space-x-4">
-        <a href="#" className="font-semibold hover:underline">
-          Features
+        
+        <a href="#products" className="font-semibold hover:underline">
+          Products
         </a>
-        <a href="#" className="font-semibold hover:underline">
-          Pricing
-        </a>
-        <a href="#" className="font-semibold hover:underline">
+        <a href="#footer" className="font-semibold hover:underline">
           About
         </a>
-        <a href="#" className="font-semibold hover:underline">
+        <a href="#footer" className="font-semibold hover:underline">
           Contact
         </a>
       </div>
